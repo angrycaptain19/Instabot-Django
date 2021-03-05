@@ -150,7 +150,7 @@ def main():
     exit()
 
   command = sys.argv[1]
-  if command == 'configure' or command == 'config':
+  if command in ['configure', 'config']:
     configure()
   elif command == 'diagnose':
     diagnose()
